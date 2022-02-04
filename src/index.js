@@ -16,11 +16,6 @@ class Site {
         let idx = this.boards.findIndex(obj => obj.name === board)
         return this.boards[idx]
     }
-
-    CheckBoardName(board) {
-        let idx = this.boards.findIndex(obj => obj.name === board)
-        return this.boards[idx].name
-    }
 }
 class Board {
     constructor(name) {
